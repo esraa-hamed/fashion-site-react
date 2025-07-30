@@ -22,9 +22,9 @@ In the project directory, you can run:
 
 ---
 
-## 🧑‍💻 Author
+## 👩‍💻 Author
 
-Made with passion by [Esraa Hamed](https://github.com/esraa-hamed)
+Made with passion by [Esraa](https://github.com/esraa-hamed)
 
 
 
