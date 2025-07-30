@@ -24,7 +24,7 @@ In the project directory, you can run:
 
 ## 👩‍💻 Author
 
-Made with passion by [Esraa](https://github.com/esraa-hamed)
+Made with passion by [Esraa](https://github.com/esraa-hamed) ✨
 
 
 
