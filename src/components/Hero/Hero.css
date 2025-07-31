@@ -4,6 +4,10 @@
     display: flex;
     justify-content: space-between;
     height: 100vh;
+
+    img{
+        border-radius: 0% 0% 20% 50%;
+    }
 }
 
 .left-div{
