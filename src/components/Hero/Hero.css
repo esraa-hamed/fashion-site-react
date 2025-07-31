@@ -1,0 +1,100 @@
+.hero
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 5rem;
+
+    h1{
+        font-family: 'Playfair Display';
+        font-size: 3rem;
+        text-shadow: 0 0 10px #fff, 
+                      0 0 30px #ff99ff;
+    }
+
+    p{
+        font-family: 'Poppins';
+        font-size: 1.5rem;
+        margin-top: -0.5rem;
+    }
+    button{
+        font-size: 1.5rem;
+        font-family: 'Poppins';
+        padding: 0.5rem;
+        cursor: pointer;
+        border-radius: 25%;
+        margin-top: 2rem;
+        background-color: black;
+        color: white;
+        box-shadow: 0 0 30px #ff99ff;
+        border: none;
+        font-weight: 700;
+        transition: 0.4s ease-in-out;
+    }
+
+    button:hover
+    {
+        background-color: white;
+        color: black;
+        letter-spacing: 0.25rem;
+        box-shadow: 0 0 10px #fff,
+                    0 0 30px #ff99ff;
+    }
+
+}
+
+.right-div
+{
+    img{
+        height: 100vh;
+    }
+}
+
+.shiny-text {
+  overflow: hidden;
+  background: linear-gradient(
+    to right,
+    #fff 20%,
+    #e0e0e0 40%,
+    #ffffff 60%,
+    #e0e0e0 80%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -100% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
+
+.bounce {
+  animation: bounce 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
